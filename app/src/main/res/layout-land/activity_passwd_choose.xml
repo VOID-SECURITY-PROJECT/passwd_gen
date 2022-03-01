@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="410dp"
-        android:layout_height="137dp"
+        android:layout_width="405dp"
+        android:layout_height="129dp"
         android:text="HOW MANY SYMBOLS?"
         android:textAlignment="center"
         android:textColor="#0099FF"
@@ -20,7 +20,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="HOW MANY SYMBOLS?" />
 
     <Button
