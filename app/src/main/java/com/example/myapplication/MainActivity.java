@@ -19,7 +19,12 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+//        setTheme(androidx.appcompat.R.style.Base_Theme_AppCompat_Light);
+
         setContentView(R.layout.activity_main);
+
+
 
         btn = (Button)findViewById(R.id.button);
         btn2 = (Button)findViewById(R.id.donate_button);

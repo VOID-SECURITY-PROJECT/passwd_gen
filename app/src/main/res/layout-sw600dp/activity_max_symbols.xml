@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#353030"
     tools:context=".max_symbols">
 
     <Button
@@ -40,6 +39,7 @@
         android:id="@+id/textView5"
         android:layout_width="584dp"
         android:layout_height="208dp"
+        android:background="#00FFFFFF"
         android:text="32 SYMBOLS"
         android:textAlignment="center"
         android:textColor="#0099FF"
@@ -55,8 +55,8 @@
         android:layout_width="683dp"
         android:layout_height="231dp"
         android:layout_marginTop="176dp"
+        android:background="#00FFFFFF"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

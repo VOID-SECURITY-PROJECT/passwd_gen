@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#353030"
     tools:context=".sixteen_symbols">
 
     <TextView
@@ -12,8 +11,8 @@
         android:layout_width="794dp"
         android:layout_height="208dp"
         android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,6 +24,7 @@
         android:id="@+id/textView4"
         android:layout_width="457dp"
         android:layout_height="275dp"
+        android:background="#00FFFFFF"
         android:text="16 SYMBOLS"
         android:textAlignment="center"
         android:textColor="#0099FF"

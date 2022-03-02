@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#353030"
     tools:context=".passwd_choose">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="410dp"
         android:layout_height="137dp"
+        android:background="#00FFFFFF"
         android:text="HOW MANY SYMBOLS?"
         android:textAlignment="center"
         android:textColor="#0099FF"
