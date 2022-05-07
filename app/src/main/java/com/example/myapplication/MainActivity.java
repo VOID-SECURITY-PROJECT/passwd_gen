@@ -9,7 +9,9 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
+import android.widget.Switch;
 
 public class MainActivity extends Activity {
 
@@ -26,6 +28,7 @@ public class MainActivity extends Activity {
 
 
 
+
         btn = (Button)findViewById(R.id.button);
         btn2 = (Button)findViewById(R.id.donate_button);
         ImageView imageView = findViewById(R.id.imageView2);
@@ -38,5 +41,6 @@ public class MainActivity extends Activity {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.donationalerts.com/r/cybercotleta77"));
             startActivity(browserIntent);
         });
+
     }
 }
