@@ -26,7 +26,7 @@
         android:layout_width="532dp"
         android:layout_height="166dp"
         android:background="#00FFFFFF"
-        android:text="8 SYMBOLS"
+        android:text="PIN CODE"
         android:textAlignment="center"
         android:textColor="#0099FF"
         android:textSize="96sp"

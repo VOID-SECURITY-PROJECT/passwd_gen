@@ -23,7 +23,7 @@
         android:id="@+id/textView3"
         android:layout_width="318dp"
         android:layout_height="66dp"
-        android:text="@string/_8_symbols"
+        android:text="PIN CODE"
         android:textAlignment="center"
         android:textColor="#0099FF"
         android:textSize="48sp"
@@ -47,6 +47,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.734"
+        tools:ignore="TextContrastCheck"
         tools:text="GENERATE" />
 
     <Button
@@ -63,6 +64,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintVertical_bias="0.844"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

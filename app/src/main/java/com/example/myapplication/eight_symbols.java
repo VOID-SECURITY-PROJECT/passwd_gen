@@ -23,7 +23,7 @@ public class eight_symbols extends Activity {
         generate_button = (Button)findViewById(R.id.generate_button);
         passwdText = findViewById(R.id.passwd);
         copy_button = (Button)findViewById(R.id.copy_button1);
-        String allowedSymbols = "1234567890-=!@#$%^&*()_+qwertyuiop[]QWERTYUIOP{}asdfghjkl;'ASDFGHJKL:\"zxcvbnm,.\\/ZXCVBNM<>?";
+        String allowedSymbols = "1234567890";
 
         passwdText.setText(passwd);
 
@@ -35,7 +35,7 @@ public class eight_symbols extends Activity {
         });
         generate_button.setOnClickListener(v -> {
             passwd = "";
-            for (int i = 0; i < 8; i++) {
+            for (int i = 0; i < 4; i++) {
                 int index = (int) Math.floor(Math.random() * allowedSymbols.length());
                 passwd += allowedSymbols.charAt(index);
             }
